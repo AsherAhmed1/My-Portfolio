@@ -11,7 +11,7 @@ const LandingPage = () => {
       <div className="md:flex">
         {/* Starting of the left side of the page */}
         <div>
-          <div className="ml-8 md:ml-32">
+          <div className="ml-8 mr-8 md:ml-32">
             <h1 className="bg-gradient-to-r from-green-400 to-gray-600 text-transparent bg-clip-text md:text-6xl text-5xl font-extrabold">
               Hi, I am Asher Ahmed.
             </h1>
