@@ -11,7 +11,7 @@ const LandingPage = () => {
       <div className="md:flex">
         {/* Starting of the left side of the page */}
         <div>
-          <div className="ml-8 mr-8 md:ml-32">
+          <div className="ml-8 md:ml-24">
             <h1 className="bg-gradient-to-r from-green-400 to-gray-600 text-transparent bg-clip-text md:text-6xl text-4xl font-extrabold">
               Hi, I am Asher Ahmed.
             </h1>
@@ -34,7 +34,7 @@ const LandingPage = () => {
 
         {/* Starting of the right side of the page */}
         <div className="flex justify-center items-center h-full">
-          <div className="w-96 mt-12 md:mt-0 md:w-64 md:mx-auto md:ml-44">
+          <div className="w-72 mt-12 md:mt-0 md:w-64 md:mx-auto md:ml-44">
             <img
               className="rounded-xl hover:scale-105 duration-300 hover:shadow-gray-600 shadow-2xl"
               src={asherImage}
@@ -47,7 +47,7 @@ const LandingPage = () => {
 
       {/* Starting of the landing page buttons */}
       <div className="mt-12">
-        <div className="flex ml-8 md:ml-0 md:justify-center items-center space-x-8">
+        <div className="flex ml-0 justify-center items-center space-x-8">
           {/* Starting of the resume button */}
           <div>
             <a href={myResume} download target="_blank" rel="noopener noreferrer">
