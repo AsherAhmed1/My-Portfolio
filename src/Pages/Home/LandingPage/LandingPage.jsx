@@ -12,7 +12,7 @@ const LandingPage = () => {
         {/* Starting of the left side of the page */}
         <div>
           <div className="ml-8 md:ml-24">
-            <h1 className="bg-gradient-to-r from-green-400 to-gray-600 text-transparent w-96 md:w-0 bg-clip-text md:text-6xl text-5xl font-extrabold">
+            <h1 className="bg-gradient-to-r from-green-400 to-gray-600 text-transparent bg-clip-text md:text-6xl text-5xl font-extrabold">
               Hi, I am Asher Ahmed.
             </h1>
             <h1 className="text-gray-600 text-3xl font-extrabold mt-6">
